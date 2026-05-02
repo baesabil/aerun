@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B001000A /* AerunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000B /* AerunApp.swift */; };
-		B001000C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B001000D /* ContentView.swift */; };
-		B001000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B001000F /* Assets.xcassets */; };
+		353255322FA5F7D700B1D01C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353255212FA5F7D700B1D01C /* HomeViewModel.swift */; };
+		353255332FA5F7D700B1D01C /* HapticExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353255262FA5F7D700B1D01C /* HapticExplanationView.swift */; };
+		353255342FA5F7D700B1D01C /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353255272FA5F7D700B1D01C /* OnboardingViewModel.swift */; };
+		353255352FA5F7D700B1D01C /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532552C2FA5F7D700B1D01C /* UserProfile.swift */; };
+		353255362FA5F7D700B1D01C /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532551D2FA5F7D700B1D01C /* PrimaryButton.swift */; };
+		353255372FA5F7D700B1D01C /* AerunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353255192FA5F7D700B1D01C /* AerunApp.swift */; };
+		353255382FA5F7D700B1D01C /* HeartRateZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532552B2FA5F7D700B1D01C /* HeartRateZone.swift */; };
+		353255392FA5F7D700B1D01C /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532551E2FA5F7D700B1D01C /* Typography.swift */; };
+		3532553A2FA5F7D700B1D01C /* ConnectHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353255232FA5F7D700B1D01C /* ConnectHealthView.swift */; };
+		3532553B2FA5F7D700B1D01C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532551A2FA5F7D700B1D01C /* ContentView.swift */; };
+		3532553C2FA5F7D700B1D01C /* WatchConnectivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532552F2FA5F7D700B1D01C /* WatchConnectivityService.swift */; };
+		3532553D2FA5F7D700B1D01C /* YoureAllSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353255282FA5F7D700B1D01C /* YoureAllSetView.swift */; };
+		3532553E2FA5F7D700B1D01C /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353255252FA5F7D700B1D01C /* GreetingView.swift */; };
+		3532553F2FA5F7D700B1D01C /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532552E2FA5F7D700B1D01C /* HealthKitService.swift */; };
+		353255402FA5F7D700B1D01C /* ConnectWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353255242FA5F7D700B1D01C /* ConnectWatchView.swift */; };
+		353255412FA5F7D700B1D01C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353255202FA5F7D700B1D01C /* HomeView.swift */; };
+		353255422FA5F7D700B1D01C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3532551C2FA5F7D700B1D01C /* Colors.swift */; };
+		353255442FA5F91900B1D01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353255432FA5F91900B1D01C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B001000B /* AerunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerunApp.swift; sourceTree = "<group>"; };
-		B001000D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B001000F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		353255192FA5F7D700B1D01C /* AerunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AerunApp.swift; sourceTree = "<group>"; };
+		3532551A2FA5F7D700B1D01C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3532551C2FA5F7D700B1D01C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3532551D2FA5F7D700B1D01C /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		3532551E2FA5F7D700B1D01C /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		353255202FA5F7D700B1D01C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		353255212FA5F7D700B1D01C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		353255232FA5F7D700B1D01C /* ConnectHealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectHealthView.swift; sourceTree = "<group>"; };
+		353255242FA5F7D700B1D01C /* ConnectWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectWatchView.swift; sourceTree = "<group>"; };
+		353255252FA5F7D700B1D01C /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		353255262FA5F7D700B1D01C /* HapticExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticExplanationView.swift; sourceTree = "<group>"; };
+		353255272FA5F7D700B1D01C /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		353255282FA5F7D700B1D01C /* YoureAllSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoureAllSetView.swift; sourceTree = "<group>"; };
+		3532552B2FA5F7D700B1D01C /* HeartRateZone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateZone.swift; sourceTree = "<group>"; };
+		3532552C2FA5F7D700B1D01C /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		3532552E2FA5F7D700B1D01C /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		3532552F2FA5F7D700B1D01C /* WatchConnectivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityService.swift; sourceTree = "<group>"; };
+		353255432FA5F91900B1D01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Aerun/Assets.xcassets; sourceTree = "<group>"; };
 		B0010010 /* Aerun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aerun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -30,14 +60,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B0010020 /* Aerun */ = {
+		3532551B2FA5F7D700B1D01C /* App */ = {
 			isa = PBXGroup;
 			children = (
-				B001000B /* AerunApp.swift */,
-				B001000D /* ContentView.swift */,
-				B001000F /* Assets.xcassets */,
+				353255192FA5F7D700B1D01C /* AerunApp.swift */,
+				3532551A2FA5F7D700B1D01C /* ContentView.swift */,
 			);
-			path = Aerun;
+			path = App;
+			sourceTree = "<group>";
+		};
+		3532551F2FA5F7D700B1D01C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3532551C2FA5F7D700B1D01C /* Colors.swift */,
+				3532551D2FA5F7D700B1D01C /* PrimaryButton.swift */,
+				3532551E2FA5F7D700B1D01C /* Typography.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		353255222FA5F7D700B1D01C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				353255202FA5F7D700B1D01C /* HomeView.swift */,
+				353255212FA5F7D700B1D01C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		353255292FA5F7D700B1D01C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				353255232FA5F7D700B1D01C /* ConnectHealthView.swift */,
+				353255242FA5F7D700B1D01C /* ConnectWatchView.swift */,
+				353255252FA5F7D700B1D01C /* GreetingView.swift */,
+				353255262FA5F7D700B1D01C /* HapticExplanationView.swift */,
+				353255272FA5F7D700B1D01C /* OnboardingViewModel.swift */,
+				353255282FA5F7D700B1D01C /* YoureAllSetView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3532552A2FA5F7D700B1D01C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3532551F2FA5F7D700B1D01C /* Common */,
+				353255222FA5F7D700B1D01C /* Home */,
+				353255292FA5F7D700B1D01C /* Onboarding */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3532552D2FA5F7D700B1D01C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3532552B2FA5F7D700B1D01C /* HeartRateZone.swift */,
+				3532552C2FA5F7D700B1D01C /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		353255302FA5F7D700B1D01C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3532552E2FA5F7D700B1D01C /* HealthKitService.swift */,
+				3532552F2FA5F7D700B1D01C /* WatchConnectivityService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		353255312FA5F7D700B1D01C /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				3532551B2FA5F7D700B1D01C /* App */,
+				3532552A2FA5F7D700B1D01C /* Features */,
+				3532552D2FA5F7D700B1D01C /* Models */,
+				353255302FA5F7D700B1D01C /* Services */,
+			);
+			name = IOS;
+			path = Aerun/IOS;
 			sourceTree = "<group>";
 		};
 		B0010021 /* Products */ = {
@@ -48,10 +149,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0010022 /* MainGroup */ = {
+		B0010022 = {
 			isa = PBXGroup;
 			children = (
-				B0010020 /* Aerun */,
+				353255432FA5F91900B1D01C /* Assets.xcassets */,
+				353255312FA5F7D700B1D01C /* IOS */,
 				B0010021 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,7 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B001000E /* Assets.xcassets in Resources */,
+				353255442FA5F91900B1D01C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +227,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B001000C /* ContentView.swift in Sources */,
-				B001000A /* AerunApp.swift in Sources */,
+				353255322FA5F7D700B1D01C /* HomeViewModel.swift in Sources */,
+				353255332FA5F7D700B1D01C /* HapticExplanationView.swift in Sources */,
+				353255342FA5F7D700B1D01C /* OnboardingViewModel.swift in Sources */,
+				353255352FA5F7D700B1D01C /* UserProfile.swift in Sources */,
+				353255362FA5F7D700B1D01C /* PrimaryButton.swift in Sources */,
+				353255372FA5F7D700B1D01C /* AerunApp.swift in Sources */,
+				353255382FA5F7D700B1D01C /* HeartRateZone.swift in Sources */,
+				353255392FA5F7D700B1D01C /* Typography.swift in Sources */,
+				3532553A2FA5F7D700B1D01C /* ConnectHealthView.swift in Sources */,
+				3532553B2FA5F7D700B1D01C /* ContentView.swift in Sources */,
+				3532553C2FA5F7D700B1D01C /* WatchConnectivityService.swift in Sources */,
+				3532553D2FA5F7D700B1D01C /* YoureAllSetView.swift in Sources */,
+				3532553E2FA5F7D700B1D01C /* GreetingView.swift in Sources */,
+				3532553F2FA5F7D700B1D01C /* HealthKitService.swift in Sources */,
+				353255402FA5F7D700B1D01C /* ConnectWatchView.swift in Sources */,
+				353255412FA5F7D700B1D01C /* HomeView.swift in Sources */,
+				353255422FA5F7D700B1D01C /* Colors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +268,10 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -195,9 +315,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baesabil.Aerun";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baesabil.Aerun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -217,9 +340,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baesabil.Aerun";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baesabil.Aerun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -232,18 +358,23 @@
 /* Begin XCConfigurationList section */
 		B0010002 /* Build configuration list for PBXProject "Aerun" */ = {
 			isa = XCConfigurationList;
-			buildConfigurations = (B0010003 /* Debug */, B0010004 /* Release */);
+			buildConfigurations = (
+				B0010003 /* Debug */,
+				B0010004 /* Release */,
+			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		B0010030 /* Build configuration list for PBXNativeTarget "Aerun" */ = {
 			isa = XCConfigurationList;
-			buildConfigurations = (B0010031 /* Debug */, B0010032 /* Release */);
+			buildConfigurations = (
+				B0010031 /* Debug */,
+				B0010032 /* Release */,
+			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 	};
 	rootObject = B0010001 /* Project object */;
 }
