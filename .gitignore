@@ -6,3 +6,5 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 .build/
+.DS_Store
+.DS_Store
